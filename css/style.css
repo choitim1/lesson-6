@@ -1,0 +1,271 @@
+
+
+
+/* 
+&display=swap
+&subset=cyrillic-ext 
+*/
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html,
+body {
+	height: 100%;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	line-height: 1;
+}
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	padding: 20px;
+}
+/* ------------------------------ */
+/* .block {
+	background-color: rgba(119, 96, 141, 1);
+	width: 200px;
+	height: 200px;
+	margin: 0px 0px 20px 0px;
+	padding: 15px;
+	border-radius: 50%;
+	box-shadow: 10px 10px 10px #000;
+}
+.inline {
+	background-color: #7a956b;
+	border: 5px solid #000; */
+}
+body{
+	background-color: rgba(209, 167, 167, 0.918);
+}
+
+
+	
+.first{
+	border: 2px solid black;
+	margin: 40px auto;
+	width: 500px;
+	padding: 20px;
+	overflow: auto;
+	height: 300px;
+	font-size: 20px;
+	color:brown;
+	line-height: 160%;
+	font-style: italic;
+	background-color: rgb(213, 231, 178);
+}
+.block{
+	background-color: rgb(135, 209, 219);
+	border: 5px double rgb(188, 45, 207);
+	font-size: 18px;
+	line-height:160% ;
+	width: 90%;
+	margin: 20px auto;
+
+}
+.second{
+	width: 200px;
+	color:salmon;
+	text-align: justify;
+	margin: 30px;
+	border: 5px dotted blue;
+	padding: 20px;
+	border-radius: 30px;
+	background-color: rgb(236, 188, 188);
+}
+.thert{
+	width: 300px;
+	overflow: auto;
+	height: 200px;
+	border-bottom:5px solid yellow;
+	
+	border-left:3px dashed rebeccapurple ;
+	border-top: 8px groove turquoise;
+	border-right: 15px ridge coral;
+	margin: 30px;
+	padding: 5px;
+	text-align: right;
+	margin:20px 0  35px auto;
+
+
+
+}
+.four{width: 500px;
+	text-align: justify;
+	color:darkblue;
+	background-color: rgb(160, 174, 235);
+	padding: 20px;
+	margin: 10px auto 10px;
+	border:3px double black;
+	border-radius:2% 98% 0% 100% / 48% 49% 51% 52% ;
+	overflow: hidden; 
+	box-shadow:3px 4px 10px #77608d;
+
+
+}
+.span{
+	text-shadow: 5px -5px 3px rgb(11, 218, 190);
+	
+	font-size: 25px;
+}
+.img{
+	border: 5px solid red;
+	padding:20px;
+	margin-left: 40px;
+	background-color: rgb(134, 167, 92);
+	border-radius: 20px;
+	box-shadow: -10px -6px 30px black, 20px 10px 40px rebeccapurple;
+	box-shadow: inset 3px 5px 12px blue;
+}
+
+.lorem1,.lorem2,.lorem3{
+	display: inline-block;
+	background-color: rgba(216, 72, 5, 0.938);
+	max-width: 200px;
+	max-height: 200px;
+	overflow: auto;
+	padding: 20px;
+	margin: 19px;
+}  
+.lorem3{
+	overflow: hidden;
+	max-width: 300px;
+	min-height: 300px;
+	display: inline-block;
+	background-color: rgb(212, 193, 17);
+	border-radius: 50%;
+	text-align: justify;
+	border: 6px dotted blueviolet ;
+	vertical-align: top;
+	box-shadow: 10px 30px 30px rgb(103, 119, 10);
+	box-shadow: inset 20px 20px 10px red;
+
+}
+.spans{
+	border: 1px solid black;
+	margin: 20px;
+	
+}
+
+
+
+ h1{
+	 text-align: center;
+	 font-size: 30px;
+	 color:rgb(94, 94, 36);
+	 margin: 30px;
+	 letter-spacing: 2px;
+	 font-style: italic;
+	
+	 padding: 20px;
+	 }
+	 h2{
+
+	 }
+ .round{max-width: 200px;
+	max-height: 200px;
+	border-radius: 50%;
+	border: 2px solid black;
+	margin: 20px;
+	overflow: hidden;
+	background-color: rgb(212, 160, 224);
+ }
+ .main{
+	 background-color: rgb(227, 164, 233);
+
+ }
+ /* .eee{
+	 font-style: italic;
+	 font-size: 25px;
+	 background-color: rgb(170, 189, 104);
+	 margin: 20px;
+	 padding: 20px;
+	 opacity: 0.5;
+	 width: 500px;
+	 height: 300px;
+	 overflow: auto;
+	 color:black
+	 
+} */
+
+
+.qqq,.www,.eee{
+	width: 25%;
+	height: 80px;
+	display: inline-block;
+	text-align: justify;
+	margin: 30px;
+	padding: 10px;
+	border:2px solid black;
+	opacity: 0.5;
+	overflow: auto;
+	
+}
+.par{
+	background-color: rgb(243, 191, 191);
+}
+.rrr{
+	display:block;
+	border:5px solid green;
+	margin: 20px;
+	padding: 20px;}
+
+.block1{
+	margin: 20px;
+	padding: 20px;
+	border-left: 3px solid rgba(221, 218, 15, 0.925);
+	border-top: 10px dotted rgba(211, 17, 17, 0.568);
+	border-right: 10px double rgb(126, 75, 10);
+	border-bottom: 3px dashed black;}
+
+.link{
+	
+	display:inline-block;
+	border: 3px solid black;
+	font-size: 50px;
+	font-weight: 700;
+	margin: 20px;
+	color:red;
+	text-shadow: 3px 3px 10px black;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px rgb(164, 216, 44);
+
+
+}
+h2{
+	font-size: 30px;
+	color:darkblue;
+	text-align: left;
+}
+
